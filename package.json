@@ -1,0 +1,29 @@
+{
+  "name": "ats-resume-optimizer",
+  "version": "1.0.0",
+  "description": "AI-powered ATS Resume Optimization Tool with multi-platform bot support",
+  "main": "index.js",
+  "scripts": {
+    "install-all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "npm start --prefix backend"
+  },
+  "keywords": [
+    "ats",
+    "resume",
+    "optimization",
+    "ai",
+    "discord",
+    "telegram",
+    "whatsapp",
+    "bot"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
